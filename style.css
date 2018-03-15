@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.reg-form {
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	background: #eee;
+}
+
+.reg-form label {
+	display: block;
+	margin: 5px;
+}
+.reg-form .form-group {
+	padding: 5px;
+}
+.reg-form .inputbox {
+	width: 30%;
+	height: 30px;
+}
