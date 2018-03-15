@@ -10,7 +10,7 @@
 	margin: auto;
 	padding: 10px;
 	text-align: center;
-	background: #eee;
+	background: #b9b9b9;
 }
 
 .reg-form label {
@@ -23,4 +23,7 @@
 .reg-form .inputbox {
 	width: 30%;
 	height: 30px;
+}
+.text {
+	text-align: center;
 }

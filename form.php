@@ -1,5 +1,5 @@
 <div class="reg-form">
-	<form action="#" method="post">
+	<form method="post">
 		<div class="form-group">
 			<label for=""><h3>Фамилия*</h3></label>
 			<input type="text" class="inputbox" placeholder="Введите фамилию" name="lastName" required >
@@ -9,8 +9,8 @@
 			<input type="text" class="inputbox" placeholder="Введите имя" name="firstName" required >
 		</div>
 		<div class="form-group">
-			<label for=""><h3>Отчество</h3></label>
-			<input type="text" class="inputbox" placeholder="Введите отчество" name="middleName">
+			<label for=""><h3>Отчество*</h3></label>
+			<input type="text" class="inputbox" placeholder="Введите отчество" name="middleName" required>
 		</div>
 		<div class="form-group">
 			<label for=""><h3>Номер телефона*</h3></label>
@@ -21,10 +21,11 @@
 			<textarea type="text" id="message" placeholder="Введите текст сообщения" name="message" cols="60" rows="10" required></textarea>
 		</div>
 		<div class="form-group">
-			<p><input type="checkbox" name="personalData" required >Я даю согласие на обработку персональных данных</p>
+			<p><input type="checkbox" name="personalData" required ><label for="">Я даю согласие на обработку персональных данных</label></p>
 		</div>
 		<div class="btn-block">
 			<button class="send-button" name="sendButton" type="submit">Отправить</button>
 		</div>
 	</form>
+	<div class="text"></div>
 </div>
