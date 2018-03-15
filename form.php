@@ -1,5 +1,5 @@
 <div class="reg-form">
-	<form method="post">
+	<form method="post" id="reg-form">
 		<div class="form-group">
 			<label for=""><h3>Фамилия*</h3></label>
 			<input type="text" class="inputbox" placeholder="Введите фамилию" name="lastName" required >
@@ -24,7 +24,7 @@
 			<p><input type="checkbox" name="personalData" required ><label for="">Я даю согласие на обработку персональных данных</label></p>
 		</div>
 		<div class="btn-block">
-			<button class="send-button" name="sendButton" type="submit">Отправить</button>
+			<input class="send-button" name="sendButton" type="submit" value="Отправить">
 		</div>
 	</form>
 	<div class="text"></div>
