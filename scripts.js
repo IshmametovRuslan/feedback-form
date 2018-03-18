@@ -10,7 +10,7 @@ $(document).ready(function (  ) {
 			alert("Ваше письмо отправлено. Мы свяжемся с вами в течение суток");
 			setTimeout(function (  ) {
 				$form.trigger('reset')
-			}, 1000)
+			}, 500)
 		});
 		return false;
 	});

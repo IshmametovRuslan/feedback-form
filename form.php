@@ -17,6 +17,10 @@
 			<input type="tel" class="inputbox" placeholder="+7(000)123-34-56" name="phone" pattern="[\+]\d{1}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" minlength="16" maxlength="16" required >
 		</div>
 		<div class="form-group">
+			<label for=""><h3>Email*</h3></label>
+			<input type="email" class="inputbox" placeholder="Введите ваш email" name="email" pattern="[.a-z0-9_-]+@[а-яА-Яa-z0-9-]+\.[а-яА-Яa-zA-Z]{2,6}"  required >
+		</div>
+		<div class="form-group">
 			<label for=""><h3>Сообщение*</h3></label>
 			<textarea type="text" id="message" placeholder="Введите текст сообщения" name="message" cols="60" rows="10" required></textarea>
 		</div>
