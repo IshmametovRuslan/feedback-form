@@ -25,11 +25,11 @@
 			<textarea type="text" id="message" placeholder="Введите текст сообщения" name="message" cols="60" rows="10" required></textarea>
 		</div>
 		<div class="form-group">
-			<p><input type="checkbox" name="personalData" required ><label for="">Я даю согласие на обработку персональных данных</label></p>
+			<p><input type="checkbox" id="checkbox" name="personalData" required ><label for="">Я даю согласие на обработку персональных данных</label></p>
 		</div>
 		<div class="btn-block">
 			<input class="send-button" name="sendButton" type="submit" value="Отправить">
 		</div>
 	</form>
-	<div class="text"></div>
+
 </div>

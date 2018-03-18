@@ -10,7 +10,7 @@
 	margin: auto;
 	padding: 10px;
 	text-align: center;
-	background: #b9b9b9;
+	background: #d5ffdf;
 }
 
 .reg-form label {
@@ -26,4 +26,11 @@
 }
 .text {
 	text-align: center;
+}
+.send-button {
+	cursor: pointer;
+	padding: 5px;
+}
+#checkbox {
+	transform: scale(2, 2);
 }
